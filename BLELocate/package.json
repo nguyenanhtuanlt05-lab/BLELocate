@@ -1,0 +1,9 @@
+{
+  "name": "blelocate-web-tests",
+  "private": true,
+  "type": "module",
+  "description": "Node tests for the dashboard's browser code. The app itself needs no Node.",
+  "scripts": {
+    "test": "node --test \"tests/js/*.test.js\""
+  }
+}
